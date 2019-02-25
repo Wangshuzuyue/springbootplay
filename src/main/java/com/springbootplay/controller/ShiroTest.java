@@ -24,7 +24,9 @@ public class ShiroTest {
         SecurityUtils.setSecurityManager(securityManager);
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken token = new UsernamePasswordToken("lisi", "111");
-        System.out.println("认证前12321aaaa wwww 暂存区 回退 修改 push:" + subject.isAuthenticated());
+        System.out.println("认证前12321aaaa wwww " +
+                "暂存区 回退 修改 push stash测试:" +
+                "tag测试" + subject.isAuthenticated());
         try {
             subject.login(token);
             subject.isPermitted();
