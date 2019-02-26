@@ -26,7 +26,7 @@ public class ShiroTest {
         UsernamePasswordToken token = new UsernamePasswordToken("lisi", "111");
         System.out.println("认证前12321aaaa wwww " +
                 "暂存区 回退 修改 push stash测试:" +
-                "tag测试 commit amend测试2 111" + subject.isAuthenticated());
+                "tag测试 commit amend测试2 1112" + subject.isAuthenticated());
         try {
             subject.login(token);
             subject.isPermitted();
