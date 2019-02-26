@@ -23,7 +23,7 @@ public class SpringBootPlayApplication extends SpringBootServletInitializer{
     @RequestMapping("hello")
     @ResponseBody
     public String hello(){
-        return "hello world！";
+        return "hello world！!!";
     }
 
     public static void main(String[] args) {
